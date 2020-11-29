@@ -1,0 +1,19 @@
+{
+  "name": "cypress-shweta",
+  "version": "1.0.0",
+  "description": "cypress learning",
+  "main": "index.js",
+  "scripts": {
+    "functional_test": "npx cypress run --spec cypress/integration/categoryListingPages_spec.js",
+    "vr": "npx percy exec -- cypress run -s cypress/integration/contactform_spec.js"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "shweta sharma",
+  "license": "ISC",
+  "devDependencies": {
+    "@percy/cypress": "^2.3.2",
+    "cypress": "^5.6.0"
+  }
+}
